@@ -1,2 +1,5 @@
 # Task Manager
-![Screen](/screen.png)
+
+<p align="center">
+  <img src="screen.png" alt="screen">
+</p>
