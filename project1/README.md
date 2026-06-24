@@ -1,2 +1,2 @@
-# MIT
-MERN Stack add on course
+# Task Manager
+![Screen](/screen.png)
