@@ -11,8 +11,14 @@ const books=[{id:1,name:"Book 1",author:"Author 1"},
             {id:5,name:"Book 5",author:"Author 5"}    
 ];
 
-app.get("/getbooks",(req,res) =>{
+app.get("/getbooks",(req,res) =>{ //Endpoint
     res.send(books);
+})
+
+app.post("/addbooks", (req, res) => {
+    const book = req.body;
+    books.push(book);
+    res.send("Book added successfully");
 })
 
 app.get("/getdata",(req,res)=>{
